@@ -19,6 +19,7 @@ This RC car is remote controllable via the Adafruit Bluetooth app for directiona
 - Smartphone with Adafruit Bluetooth companion app (1)
 
 ### Pinouts
+
 |Mbed|Dual H-Bridge|DC Motors|Battery|
 |----|-------------|---------|-------|
 |Vin |    Vmot     |         |   +   |
@@ -39,7 +40,6 @@ This RC car is remote controllable via the Adafruit Bluetooth app for directiona
 
 
 |Mbed|Adafruit BLE|
-
 |---|---|
 |Vu(5V)|Vin|
 |nc|RTS|
