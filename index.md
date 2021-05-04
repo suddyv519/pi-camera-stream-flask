@@ -1,15 +1,40 @@
-## Welcome to GitHub Pages
+# Bluetooth RC Surveillance Car
 
-You can use the [editor on GitHub](https://github.com/suddyv519/pi-camera-stream-flask/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Team Members
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- Sudharshan Venkatesh
+- Jeremy Gibson
 
-### Markdown
+## Description
+This RC car is remote controllable via the Adafruit Bluetooth app for directional control. There is a Raspberry Pi 3B attached as a slave device with the camera module, which streams live video to a web application.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Hardware
+- Mbed LPC1768 (1)
+- Hobby DC Gear Motor - 140 rpm (2)
+- Shadow robot chassis (1)
+- Wheel - 65mm (2)
+- Smartfun Dual H Bridge (1)
+- Adafruit Bluefruit LE UART module (1)
+- Battery pack/holder (2)
+- Smartphone with Adafruit Bluetooth companion app (1)
 
-```markdown
-Syntax highlighted code block
+### Pinouts
+***Mbed*** ***Dual H-Bridge*** ***DC Motors*** ***Battery***
+Vin               Vmot                                +
+Gnd               Gnd                                 -
+Vout              Vcc
+p21               PWMB
+p22               BIN2
+p23               BIN1
+p24               AIN1
+p25               AIN2
+p26               PWMA
+Vout              /STBY
+                  A01             left-red
+                  A02             left-black
+                  B02             right-black
+                  B01             right-red
+
 
 # Header 1
 ## Header 2
@@ -24,14 +49,5 @@ Syntax highlighted code block
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/suddyv519/pi-camera-stream-flask/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
