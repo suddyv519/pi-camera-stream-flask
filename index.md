@@ -38,6 +38,7 @@ This RC car is remote controllable via the Adafruit Bluetooth app for directiona
 |    |B01|right-red|
 
 |Mbed|Adafruit BLE|
+
 |---|---|
 |Vu(5V)|Vin|
 |nc|RTS|
