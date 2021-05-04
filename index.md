@@ -25,18 +25,18 @@ This RC car is remote controllable via the Adafruit Bluetooth app for directiona
 |----|-------------|---------|-------|
 |Vin |    Vmot     |         |   +   |
 |Gnd|  Gnd        |          |   -   |
-|Vout| Vcc |
-|p21 |PWMB|
-|p22|BIN2|
-|p23|BIN1|
-|p24|AIN1|
-|p25|AIN2|
-|p26|PWMA|
-|Vout|/STBY|
-|    |A01 |left-red|
-|    |A02|left-black|
-|    |B02|right-black|
-|    |B01|right-red|
+|Vout| Vcc | | |
+|p21 |PWMB| | |
+|p22|BIN2| | |
+|p23|BIN1| | |
+|p24|AIN1| | |
+|p25|AIN2| | |
+|p26|PWMA| | |
+|Vout|/STBY| | |
+|    |A01 |left-red| |
+|    |A02|left-black| |
+|    |B02|right-black| |
+|    |B01|right-red| |
 
 
 |Mbed|Adafruit BLE|
