@@ -20,7 +20,6 @@ This RC car is remote controllable via the Adafruit Bluetooth app for directiona
 
 ### Pinouts
 |Mbed|Dual H-Bridge|DC Motors|Battery|
-
 |----|-------------|---------|-------|
 |Vin |    Vmot     |         |   +   |
 |Gnd|  Gnd        |          |   -   |
@@ -36,6 +35,8 @@ This RC car is remote controllable via the Adafruit Bluetooth app for directiona
 |    |A02|left-black|
 |    |B02|right-black|
 |    |B01|right-red|
+
+
 
 |Mbed|Adafruit BLE|
 
