@@ -36,16 +36,20 @@ This RC car is remote controllable via the Adafruit Bluetooth app for directiona
 |    |B02|right-black|
 |    |B01|right-red|
 
+|Mbed|Adafruit BLE|
+|---|---|
+|Vu(5V)|Vin|
+|nc|RTS|
+|Gnd|CTS|
+|p10 (RX)|TXO|
+|p9 (TX)|RXI|
 
-# Header 1
-## Header 2
-### Header 3
+## Software
+[Mbed Repository](https://os.mbed.com/users/svenkatesh/code/rc_car_bluetooth/)
+[Github repository for live camera feed](https://github.com/suddyv519/pi-camera-stream-flask)
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
+## Video Demo
+[YouTube Link](url)
 
 **Bold** and _Italic_ and `Code` text
 
